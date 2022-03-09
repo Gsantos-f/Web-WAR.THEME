@@ -1,0 +1,95 @@
+@charset "utf-8";
+ /* como botar fontes */
+@font-face {
+    font-family: Windlass; /* nome que vc qr para quando usar o 'fonte' */
+    src: url(/Windlass.ttf); /* local aonde a fonte esta nos arquivos */
+}
+
+/* Anotacao */
+    /* ANATOMIA do css
+    
+    seletor {
+        propriedade: valor da propriedade;
+    "ex"cor: vermelho;  
+    }
+    
+    /*Seletor por tag*/
+    
+    header {
+        
+        /* ex de elementos, pode ser colocado em qualquer seletor */
+        background: #ffffff;  /*para mudar a cor de fundo*/
+        background: -webkit-linear-gradient(bottom left, #1900ff 0%, #ff0000 100%);
+                 /* -webkit-radial-gradient */
+                    /* linear - faz um degradê de um certo ponto a outro de forma linear
+                       radial - faz um degradê de um certo ponto que vai se expandindo de forma circular */
+        /* degrade de cores */
+        -webkit-filter: grayscale(100%); /*só esse ja muda o para um filtro cinza*/
+        filter: grayscale(100%);
+        filter: gray;
+        /* os outros 2 são apenas para caso vc queira mudar os tipos separadamente no caso o 1 a escala e o segundo a cor */
+        /* EFEITO PRETO E BRANCO */
+
+        background-color: asdfa; /*(define a cor do fundo);*/
+        background-image:sadfas; /*(define uma imagem de fundo);*/
+        background-repeat:asdfa; /*(define a maneira como a imagem de fundo é posicionada);*/
+        background-attachment:asdf; /*(define se a imagem de fundo "rola" ou não com a tela);*/
+        background-position:sadfa; /*(define como e onde a imagem de fundo é posicionada);*/
+        background-clip:sdf; /*(define a área do box onde a imagem de fundo é aplicada);*/
+        background-origin:asdfasd; /*(define a posição de origem da imagem no box);*/
+        background-size:asdf; /*(define as dimensões da imagem no box);*/
+        background:asdfasd; /*(maneira abreviada para declarar todas as propriedades anteriores).*/
+        
+        transition: 10s; /* Tempo de transação que tera em um efeito */
+        transition-delay: 1s; /* Tempo que tera antes de executar a transação */
+        color: white; /* para mudar a cor de texto */
+        text-align: center; /* define a posição de um texto */
+        text-decoration: none; /* muda a decoração de um texto */
+        font-family: 'Georgia', 'Times New Roman', 'Times', 'serif'; /* para mudar a fonte */
+        font-size: 30px; /* altera o tamanho da fonte */
+        /* propriedades de dimensão */
+        padding: 0 0 0 0px; /* adiciona um preenchimento na parte interior da borada , sequencia 0superioresquerdo 0superior direito 0inferiordireito
+        0inferioresquerdo */
+        padding: 0 0px; /* 0 - pra cima e pra baixo 0 - pra esquerda e pra direita */
+        border: 1px type blue; /* adiciona uma borda (tamanho/tipo, solid, transparent, etc/cor) para remover uma borda
+        de um determinado lado usa-se "border-posição: none;" */
+        border-radius: 100% /* adiciona uma borda ao elemento com a propriedade de arredondar */;
+        width: 10px; /* alterar a largura */
+        height: 10px; /* alterar a altura */
+        overflow: scroll; /* ex: scroll(adicionar uma certa propriedade a um item, ex: uma caixa de texto é muito pequena e seu conteudo muito grande ent utiliza-se esse comando
+        para que adicione um scroll a caixa, sem precisar aumentar a caixa, mantendo o conteudo na proporção) */
+        
+        /* propriedades de posicionamento 
+           in Block (ocupam 100% do espaço disponivel e adicionam quebra de linha em cima e embaixo) 
+           In line (Tamanho determinado pelo seu conteudo ex: links, n pode ter o tamanho alterado) */
+        margin: 0 auto; /* posicionamento, coloca um espaçamento na parte do exterior da borda*/
+        display: block; /* transforma em block */
+        display: inline; /* transforma em line */
+        display: inline-block; /* um inline com privilegios de block(pode se alterar o tamanho sem quebra de linhas) */   
+        position: absolute; /* Define a posição de um objeto em um plano */
+        object-position: center; /* Define a posição de um objeto em um espaço*/
+        top: 2em; /* mover do topo */
+        bottom: 2em; /* mover de baixo */
+        left: 2em; /* mover da esquerda */
+        right: 2em; /* mover da direita */
+    
+        /* Flexbox (caixas flexiveis) */
+        display: flex; /* deixa um item flexbox (alinhado) */
+        display: absolute; /*faz um certo item ficar sobrepondo outro */
+        justify-content: center; /* alinha as caixas */
+        align-items: center; /* alinha item */
+    }
+    
+    /*Seletor por classe*/
+    
+    .exemplo {
+        background-color: blue;
+    }
+    
+    /*Seletor por id/   é um id unico por pagina*/
+    
+    #exemplo {
+        background-color: blue; 
+    }
+
+/* PAROU EM 5:16:00 */

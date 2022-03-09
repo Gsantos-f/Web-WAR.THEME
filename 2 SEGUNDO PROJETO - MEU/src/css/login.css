@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'atwriter' ;
+    src: url(/src/fontes/atwriter.ttf);
+}
+@font-face {
+    font-family: 'Southmore' ;
+    src: url(/src/fontes/Southmore.ttf);
+}
+
+*{
+    color:rgb(221, 221, 221);
+    font-family: 'atwriter';
+}
+body{
+    background: rgb(26, 26, 26);
+}
+header{
+    font-size:25px;
+    width: 100%;
+    text-align: center;
+    font-family: 'southmore' ;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: relative;
+    justify-items: center;
+    width: 1.5em;
+    padding-bottom: 1.3em;
+}
+.box{
+    width: 100%;
+}
+.main{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.caixalogin{
+    margin: 2em 0;
+    background: rgb(185, 125, 35);
+    padding: 3em 2.5em;
+    border: 1px transparent white;
+    border-radius: 2%;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}   
+.botaop{
+    text-align: center;
+}
+.botao{
+    border: none;
+    font-size: 15px;
+    border-radius: 5%;
+    background: rgb(26, 26, 26);
+    padding: .3em 6.4em;
+}
+.botao:hover{
+    background: rgb(15, 15, 15);
+    transition: .3s;
+}
+.botao:active{
+    background: rgb(88, 72, 61);
+    box-shadow: 0px 0px 10px black;
+}
+.labels{
+    text-align: center;
+}
+.usuario input, .senha input{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .4em 2em;
+    border-radius: 5%;
+    margin: .8em 0;
+    border: none;
+    background: rgb(26, 26, 26);
+}
+.usuario input:focus , .senha input:focus{
+    box-shadow: 0px 0px 10px black;
+    outline: 0;
+    background: rgb(20, 20, 20);
+}
+.usuario p, .senha p{
+    margin-left: .7em;
+    text-align: justify;
+    font-size: 18px;
+    font-weight:600;
+}
+.hr{
+    border-style: none;
+}
+footer{
+    font-family: 'atwriter' ; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.clique {
+    margin-left: 1.2em;
+    margin-bottom: 4em;
+    padding: 1em;
+    background: rgb(185, 125, 35);
+    border: 1px transparent rgb(255, 166, 0);
+    border-radius: 2%;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    width: 300px;
+}
+.clique a{
+    margin-left: 6em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.clique a:hover{
+    color: burlywood;
+}
+.caixafooter .links a{
+    text-align: center;
+    text-decoration: none;
+    color: burlywood;
+}  
+.links{
+    font-size: 15px; 
+    margin-left: .2em;
+} 
+.links a:hover{
+    color: rgb(226, 226, 226);
+}

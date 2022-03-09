@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <!--Aonde vai acontecer as config interna-->
+    <head>
+        <meta charset="UTF-8"> <!--define a formatação brasileira de pontuação(^~´`ç)-->
+        <title> TITULO ALEATORIO </title><!--Vai aparecer na aba do navegador-->
+        <link rel="stylesheet" type="text/css" href="local">
+        <!--comando <link> serve para ligar um arquivo com outro o comando "rel="texto"" para dizer qual a relação desse arquivo 
+        com o arquivo linkado, o comando "href="local"" é para colocar o local desse arquivo, diretorio dele.-->
+    </head>
+
+    <!--Aonde vai acontecer as config externa-->
+    <body>
+
+        <div>
+            <input type="text" placeholder="texto"> 
+              <!-- type="color"
+                /"password"
+                /"number"
+                /"text"
+                /"checkbox"(caixa de seleção)
+                /"radio"(caixa de seleção em grupo, se marcar uma a outra desmarca, precisa ter a msm indentificação nesse caso,
+                usamos a especificação "name="nome"" ex <input type="radio" name="nome"> <input type="radio" name="nome"> Assim na pagina aparecera 2 caixas
+                que quando marca uma a outra n pode ser marcada)
+                /"submit"(botão de enviar)
+                /"email"(variação da caixa de texto - para email)
+                /"date"
+                /"datetime-local" (aonde inclui o tempo)
+                /"range" (pode mover um botão por uma linha(n sei explicar, melhor vendo))
+                /"search"
+                /"tel"(telefone, mas n vem formatado)
+                /"time"
+                /"url"(aceita um url)
+                /"week"(vc pode selecionar uma semana)
+                -->
+            <!-- 
+                "name="nomedoinput""
+                "value="texto/numero""(O que vai aparecer ja escrito na caixa de texto por padrão, isso serve para botões e etc)
+
+             -->
+            <!--comando <input> cria um campo de entrada nesse caso estamos especificando o comando com "type="text"", 
+            assim criando um campo de texto, o comando "placeholder="texto"" serve para colocar um texto dentro desse campo,
+            que some quando selecionado e volta quando desselecionado -->
+            <button>
+                <!--Cria um campo, um botão(pode ser colocado imagens/editar/etc)-->
+            </button>
+
+            <nav>
+            <!--Area de navegação-->   
+            </nav>
+        </div>
+
+        <header>
+        <!--CABEÇALHO-->
+        </header>
+
+        <main>
+        <!--Essa tag é aonde fica o conteudo mais importante da sua pagina, coloque ela sempre no topo(dentro do <body>)-->
+        </main>
+
+        <aside id="exemplo">
+        <!--Sidebar (barra lateral algo do genero)-->
+        </aside>
+
+        <!--As tags definidas como h- vão ate o h6 esão usados para titulos-->
+        <h1><!--texto--></h1>
+        <!--...-->
+        <h6><!--texto--></h6>
+
+        <p class="exemplo">
+        <!--class="exemplo" serve para nomear uma tag ou classificala-->
+        <!-- Usada para definir paragrafos-->
+        <!-- <em>italic</em> -->
+        <!-- <string>negrito</strong> -->
+        <!-- <br/> quebra de linha em um texto -->
+        </p>
+
+        <ul><!--Define uma lista não ordenada-->
+            <li></li> <!--Define itens dessa lista-->
+            <li></li> <!--Define itens dessa lista-->
+        </ul>
+
+        <ol><!--Define uma lista ordenada-->
+            <li></li> <!--Define itens dessa lista-->
+            <li></li> <!--Define itens dessa lista-->
+        </ol>
+
+        <a href="" target="blank"><!--texto/palavra--></a>
+        <!--<a> comando para acessar um link quando o usuario clicar "href="link"",
+        o comando "taget="_blank"" serve para direcionar esse link em outra aba em vez da mesma-->
+        
+        <div>
+        <!--Uma tag que serve para separar partes do projeto, n tem nenhum siginificado
+        aonde se pode botar outras tags dentro dela(serve mais paraseparar conteudo)-->
+        </div>
+
+        <section>
+        <!--Tag para definir seções-->
+            <article>
+                <!--Quando um elemento <article> está aninhado, o elemento interior representa um artigo relacionado
+                 com o elemento exterior. Por exemplo, os comentários do post de um blog podem ser elementos <article>
+                 aninhados em <article> representando o post do blog.-->
+            </article>
+        </section>
+
+        <footer>
+        <!--RODAPE, pode botar os conteudos que ficam no final da pagina-->
+        </footer>
+
+        <div>
+            <figure> <!--Tag para imagem-->
+                
+                <img src="image.png" alt="especificação da imagem">
+                <!--O comando <img> server pra colocar uma img ao projeto, O comando "src="local"" serve pra localizar o arquivo
+                dentro das pastas e o comando "alt="txt"" serve para especificar o item ou a img com um texto alternativo(nunca esqueça
+                de colocar, pois auxilia na localização dentro do projeto e ajuda ao leitor do site na identificação caso aconteça algum erro)-->
+                <figcaption>
+                <!--É uma tag como um texto legenda da img, ou texto referencia-->    
+                </figcaption>
+
+            </figure>
+        </div>
+        <!-- TABELA -->
+            <table> 
+                <tr>  <!-- o comando  <tr> define a quantidade de linhas -->
+                    <td>  <!-- o comando <td> define a quantidade de colunas( tem q ser o mesmo em cada linha) -->
+
+                    </td>
+                </tr>
+                <thead>
+                    <tr>
+                        <td>
+    
+                        </td>
+                    </tr>
+                </thead> <!-- Esse comando é uma tag para definir o cabeçalho de uma tabela, aonde ficara a informação de descrição de cada coluna
+                    ( dependendo do tamanho de sua tabela, vc ira definir quantos cabeçalhos tem, dividindo as informações claro) -->
+                <tbody>
+                    <tr>
+                        <td>
+    
+                        </td>
+                    </tr>
+                </tbody> <!-- Esse comando é uma tag para definir o corpo da tabela, aonde ficara todas as linhas/colunas de uma tabela -->
+            </table>
+        <!-- FORMULARIOS -->
+        <form action="local" method="get/post">
+            <!-- no comando <form> vc cria um formulario, na especificação "action="local"" você ira especificar o local aonde sera enviado as informações,
+            na especificação "method="get/post"" seria como as informações seriam passadas "get" de forma externa e "post" de forma interna( utilizado em abas de login ) -->
+        </form>
+        
+        <select name="nome" size="4" multiple>
+            <!-- Nessa tag vc pode usar o (size="valor" multiple) aonde vc esta dizendo que pode ser selecionado uma quantidade de valores, caso queira que seja apenas 1 opção, n bote esse comando.-->
+            <!-- O comando <select> abre uma aba de seleção, aonde vc pode botar opções variadase e ilimitadas, nesse comando é preciso botar sempre um nome: "name="---"". -->
+            <option value="Maior">maior preço</option>
+            <option selected>menor preço</option>
+            <!-- o comando <option> colocará uma opção em uma determinada tag, aonde o texto escrito dentro será o valor enviado, caso tenha o comando "value="texto/numero"" mesmo que
+            tenha um nome escrito dentro, ao ser selecionado e enviado o valor que chegara será sempre o que esta dentro de "value". Caso tenha escrito dentro do comando  <options>
+            a palavra "selected" esse será o valor que aparecerá no topo da lista. -->
+        </select>
+        <textarea>
+            <!-- Cria uma area de texto grande, com varias linhas, aonde pode ser definido seu estilo via css. -->
+        </textarea>
+
+        <div>
+            <input type="checkbox" id="id">
+            <label for="id">texto</label>
+            <!-- o comando <label> serve para indentificar um caixa de texto ou comando de  input em formularios ou abas de logins
+            quando utilizamos o comando "for"="nome" no <label> estamos ligando o texto do comando label a o comando input(ex acima: quando eu clicar em "texto" automaticamente a opção da "checkbox" do input será preenchida
+            como se tivesse sido selecionada, apenas clicando no texto). Obs: vc precisa colocar um "id="nome"" ao comando input. -->
+            
+                <!-- tambem pode ser usado -->
+            <label>
+                texto que ficara associado ao comando input <br/>
+                <input type="checkbox">
+            </label>    
+        </div>
+
+        
+    </body>
+    <script src="./ARQUIVO AUXILIAR - JS -.js"></script>
+</html>
+
+
+
+<div>
+<!--Texto padrão em todo arquivo html-->
+    <!DOCTYPE html>
+    <html lang="pt-br">
+        
+        <head>
+            <meta charset="UTF-8"> 
+            <title> TITULO ALEATORIO </title>
+        </head>
+    
+        <body>
+        
+        </body>
+    </html>
+
+</div>
