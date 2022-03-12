@@ -9,7 +9,7 @@
  ## ◉ 🖼️IMAGES
 
 <div align="center">
-<img  height="280px" src="https://user-images.githubusercontent.com/101200460/157447271-19b2d9e9-85e7-4b32-8292-bd5eb9107b39.gif" >
+<img  height="280px" src="https://user-images.githubusercontent.com/101200460/158026396-9255faa7-955a-44aa-9ff1-e2a3bcd58ee7.gif" >
 <img  height="280px" src="https://user-images.githubusercontent.com/101200460/157447253-b2c2ce50-1500-49c3-9de5-bc2ff6155f3d.gif" >
 </div>
 
