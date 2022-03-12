@@ -2,6 +2,8 @@
  <p> ▣ PT-BR: Neste projeto desenvolvi um website para ganhar experiencia no meu desenvolvimento na area de Front-end, na pagina não tem nenhum conteudo especial em especifico, são mais textos e palavras randomicas que optei para ter uma guia e n ficar tão perdido no projeto, nele meu foco foi o Html e Css, fazendo a estrutura e estilização do site. Nesse tema eu escolhi um voltado para guerr@ com um estilo mais simples, com um tom de sepia nas imagens e um ar mais minimalista ao cabeçalho, o tema é mais para conseguir encontrar cores e uma melhor organização no estilo. Nesse projeto eu fiz uma pagina de login, apenas para ganhar mais experiencia.   </p>
  <p> ▣ EN-US: In this project I developed a website to gain experience in my development in the Front-end area, on the page there is no special content in specific, there are more texts and random words that I chose to have a guide and dont stay lost in the project, in it my focus was the Html and CSS, making the structure and stylization of the site. In this theme I chose one aimed at guerr@ with a simpler style, with a sepia tone in the images and a more minimalist look to the header, the theme is more to be able to find colors and a better organization in the style. In this project I made a login page, just to gain more experience. </p>
  
+ PAGE: https://gsantos-f.github.io/Web-WAR.THEME/
+ 
  ## ◉ 💻Technologies
  ▣ HTML</br>
  ▣ CSS
